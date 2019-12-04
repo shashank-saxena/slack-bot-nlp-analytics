@@ -1,0 +1,21 @@
+{
+  "name": "botkit-slack-botkit-app",
+  "version": "1.0.0",
+  "description": "NA",
+  "main": "bot.js",
+  "engines": {
+    "node": "8.16"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "botanalytics": "^2.4.9",
+    "botkit": "^0.7",
+    "botkit-middleware-dialogflow": "^2.1.0",
+    "botkit-storage-mongo": "^1.0.7",
+    "dashbot": "^11.1.0",
+    "dotenv": "^7.0.0"
+  }
+}
